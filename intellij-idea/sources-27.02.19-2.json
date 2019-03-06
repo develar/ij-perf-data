@@ -1,0 +1,890 @@
+{
+  "version": "1",
+  "items": [
+    {
+      "name": "app initialization preparation",
+      "duration": 2807,
+      "start": 0,
+      "end": 2807
+    },
+    {
+      "name": "app initialization",
+      "duration": 278,
+      "start": 2807,
+      "end": 3086
+    },
+    {
+      "name": "plugins initialization",
+      "description": "plugin count: 190",
+      "duration": 418,
+      "start": 3089,
+      "end": 3507
+    },
+    {
+      "name": "plugin descriptors loading",
+      "duration": 294,
+      "start": 3089,
+      "end": 3384
+    },
+    {
+      "name": "app components initialization",
+      "description": "component count: 104",
+      "duration": 2819,
+      "start": 3510,
+      "end": 6330
+    },
+    {
+      "name": "app components registration",
+      "duration": 287,
+      "start": 3510,
+      "end": 3798
+    },
+    {
+      "name": "app components registered callback",
+      "duration": 183,
+      "start": 3798,
+      "end": 3981
+    },
+    {
+      "name": "app components creation",
+      "duration": 2348,
+      "start": 3981,
+      "end": 6330
+    },
+    {
+      "name": "app initialized callback",
+      "duration": 266,
+      "start": 6330,
+      "end": 6596
+    },
+    {
+      "name": "project components initialization",
+      "description": "component count: 224",
+      "duration": 2419,
+      "start": 7516,
+      "end": 9936
+    },
+    {
+      "name": "project components registration",
+      "duration": 682,
+      "start": 7516,
+      "end": 8199
+    },
+    {
+      "name": "project components creation",
+      "duration": 1737,
+      "start": 8199,
+      "end": 9936
+    },
+    {
+      "name": "module loading",
+      "description": "module count: 1",
+      "duration": 185,
+      "start": 9947,
+      "end": 10133
+    },
+    {
+      "name": "project pre-startup",
+      "duration": 24,
+      "start": 12107,
+      "end": 12131
+    },
+    {
+      "name": "project startup",
+      "duration": 0,
+      "start": 12131,
+      "end": 12131
+    },
+    {
+      "name": "default project components initialization",
+      "description": "component count: 23",
+      "duration": 13,
+      "start": 12377,
+      "end": 12390
+    },
+    {
+      "name": "default project components registration",
+      "duration": 1,
+      "start": 12377,
+      "end": 12378
+    },
+    {
+      "name": "default project components creation",
+      "duration": 12,
+      "start": 12378,
+      "end": 12390
+    },
+    {
+      "name": "unknown",
+      "duration": 1396,
+      "start": 12390,
+      "end": 13787
+    }
+  ],
+  "appComponents": [
+    {
+      "name": "com.intellij.openapi.util.registry.RegistryState",
+      "duration": 72,
+      "start": 3991,
+      "end": 4064
+    },
+    {
+      "name": "com.intellij.internal.statistic.updater.StatisticsJobsScheduler",
+      "duration": 16,
+      "start": 4064,
+      "end": 4080
+    },
+    {
+      "name": "com.intellij.internal.statistic.persistence.UsageStatisticsPersistenceComponent",
+      "duration": 10,
+      "start": 4068,
+      "end": 4079
+    },
+    {
+      "name": "com.intellij.configurationStore.StoreAwareProjectManager",
+      "duration": 114,
+      "start": 4081,
+      "end": 4195
+    },
+    {
+      "name": "com.intellij.openapi.vfs.PlatformVirtualFileManager",
+      "duration": 111,
+      "start": 4081,
+      "end": 4192
+    },
+    {
+      "name": "com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl",
+      "duration": 96,
+      "start": 4083,
+      "end": 4180
+    },
+    {
+      "name": "com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl",
+      "duration": 92,
+      "start": 4083,
+      "end": 4176
+    },
+    {
+      "name": "com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl",
+      "duration": 296,
+      "start": 4195,
+      "end": 4492
+    },
+    {
+      "name": "com.intellij.openapi.editor.impl.EditorFactoryImpl",
+      "duration": 239,
+      "start": 4496,
+      "end": 4735
+    },
+    {
+      "name": "com.intellij.openapi.actionSystem.impl.ActionManagerImpl",
+      "duration": 229,
+      "start": 4497,
+      "end": 4726
+    },
+    {
+      "name": "com.intellij.ide.ui.laf.LafManagerImpl",
+      "duration": 94,
+      "start": 4754,
+      "end": 4848
+    },
+    {
+      "name": "com.intellij.openapi.application.Preloader",
+      "duration": 21,
+      "start": 4855,
+      "end": 4877
+    },
+    {
+      "name": "com.intellij.util.net.ssl.CertificateManager",
+      "duration": 71,
+      "start": 4892,
+      "end": 4964
+    },
+    {
+      "name": "com.intellij.openapi.wm.impl.FocusManagerImpl",
+      "duration": 16,
+      "start": 4980,
+      "end": 4996
+    },
+    {
+      "name": "com.intellij.openapi.wm.impl.WindowManagerImpl",
+      "duration": 12,
+      "start": 4981,
+      "end": 4994
+    },
+    {
+      "name": "com.intellij.ide.MacOSApplicationProvider",
+      "duration": 22,
+      "start": 5013,
+      "end": 5036
+    },
+    {
+      "name": "com.intellij.openapi.updateSettings.impl.UpdateCheckerComponent",
+      "duration": 44,
+      "start": 5036,
+      "end": 5081
+    },
+    {
+      "name": "com.intellij.execution.ExecutorRegistryImpl",
+      "duration": 18,
+      "start": 5062,
+      "end": 5081
+    },
+    {
+      "name": "com.intellij.util.indexing.FileBasedIndexImpl",
+      "duration": 484,
+      "start": 5081,
+      "end": 5565
+    },
+    {
+      "name": "com.intellij.psi.stubs.SerializationManagerImpl",
+      "duration": 15,
+      "start": 5565,
+      "end": 5580
+    },
+    {
+      "name": "com.intellij.psi.stubs.StubIndexImpl",
+      "duration": 172,
+      "start": 5566,
+      "end": 5738
+    },
+    {
+      "name": "com.intellij.openapi.actionSystem.ex.QuickListsManager",
+      "duration": 23,
+      "start": 5745,
+      "end": 5768
+    },
+    {
+      "name": "com.intellij.compiler.impl.TranslatingCompilerFilesMonitor",
+      "duration": 12,
+      "start": 5770,
+      "end": 5783
+    },
+    {
+      "name": "com.intellij.compiler.server.BuildManager",
+      "duration": 12,
+      "start": 5770,
+      "end": 5783
+    },
+    {
+      "name": "com.intellij.util.xml.impl.JavaDomApplicationComponent",
+      "duration": 17,
+      "start": 5785,
+      "end": 5802
+    },
+    {
+      "name": "com.intellij.openapi.projectRoots.impl.DefaultJdkConfigurator",
+      "duration": 116,
+      "start": 5803,
+      "end": 5920
+    },
+    {
+      "name": "org.intellij.lang.xpath.xslt.impl.XsltConfigImpl",
+      "duration": 18,
+      "start": 5932,
+      "end": 5950
+    },
+    {
+      "name": "com.intellij.stats.completion.CompletionTrackerInitializer",
+      "duration": 11,
+      "start": 5960,
+      "end": 5971
+    },
+    {
+      "name": "com.intellij.completion.FeatureManagerImpl",
+      "duration": 18,
+      "start": 5981,
+      "end": 6000
+    },
+    {
+      "name": "com.jetbrains.cidr.lang.dfa.contextSensitive.OCSourceGliderComponent",
+      "duration": 166,
+      "start": 6001,
+      "end": 6168
+    },
+    {
+      "name": "org.jetbrains.kotlin.idea.PluginStartupComponent",
+      "duration": 24,
+      "start": 6182,
+      "end": 6206
+    },
+    {
+      "name": "org.jetbrains.kotlin.idea.JvmPluginStartupComponent",
+      "duration": 45,
+      "start": 6206,
+      "end": 6252
+    },
+    {
+      "name": "org.jetbrains.android.AndroidPlugin",
+      "duration": 26,
+      "start": 6252,
+      "end": 6278
+    }
+  ],
+  "appOptionsTopHitProviders": [
+    {
+      "name": "com.intellij.codeInsight.intention.impl.config.IntentionsOptionsTopHitProvider",
+      "duration": 1629,
+      "start": 6489,
+      "end": 8119
+    },
+    {
+      "name": "com.intellij.codeInsight.template.impl.LiveTemplatesOptionsTopHitProvider",
+      "duration": 283,
+      "start": 8119,
+      "end": 8402
+    }
+  ],
+  "appServices": [
+    {
+      "name": "com.intellij.ide.macro.IdePathMacros",
+      "duration": 20,
+      "start": 4012,
+      "end": 4033
+    },
+    {
+      "name": "com.intellij.ide.scratch.ScratchFileServiceImpl",
+      "duration": 51,
+      "start": 4212,
+      "end": 4263
+    },
+    {
+      "name": "com.intellij.openapi.editor.impl.EditorActionManagerImpl",
+      "duration": 234,
+      "start": 4497,
+      "end": 4731
+    },
+    {
+      "name": "com.intellij.ide.ui.UISettings",
+      "duration": 27,
+      "start": 4515,
+      "end": 4543
+    },
+    {
+      "name": "com.intellij.ide.ui.NotRoamableUiSettings",
+      "duration": 15,
+      "start": 4516,
+      "end": 4532
+    },
+    {
+      "name": "com.intellij.framework.detection.impl.FrameworkDetectorRegistryImpl",
+      "duration": 57,
+      "start": 5652,
+      "end": 5709
+    },
+    {
+      "name": "com.intellij.openapi.projectRoots.impl.JavaAwareProjectJdkTableImpl",
+      "duration": 113,
+      "start": 5806,
+      "end": 5919
+    },
+    {
+      "name": "com.intellij.xdebugger.impl.XDebuggerUtilImpl",
+      "duration": 11,
+      "start": 6211,
+      "end": 6223
+    },
+    {
+      "name": "com.intellij.xdebugger.impl.settings.XDebuggerSettingManagerImpl",
+      "duration": 27,
+      "start": 6225,
+      "end": 6252
+    },
+    {
+      "name": "com.intellij.util.xml.impl.DomApplicationComponent",
+      "duration": 36,
+      "start": 6439,
+      "end": 6475
+    },
+    {
+      "name": "com.intellij.codeInsight.intention.impl.config.IntentionManagerSettings",
+      "duration": 1624,
+      "start": 6492,
+      "end": 8117
+    },
+    {
+      "name": "com.intellij.ide.RecentProjectsManagerBase",
+      "duration": 12,
+      "start": 6615,
+      "end": 6628
+    },
+    {
+      "name": "com.intellij.codeInsight.template.impl.TemplateSettings",
+      "duration": 278,
+      "start": 8121,
+      "end": 8400
+    },
+    {
+      "name": "com.intellij.codeInsight.daemon.DaemonCodeAnalyzerSettingsImpl",
+      "duration": 30,
+      "start": 8394,
+      "end": 8425
+    },
+    {
+      "name": "com.intellij.profile.codeInspection.JavaAwareInspectionProfileManager",
+      "duration": 11,
+      "start": 8398,
+      "end": 8410
+    },
+    {
+      "name": "com.intellij.ide.todo.TodoConfiguration",
+      "duration": 55,
+      "start": 8444,
+      "end": 8499
+    },
+    {
+      "name": "com.intellij.openapi.editor.colors.impl.EditorColorsManagerImpl",
+      "duration": 51,
+      "start": 8446,
+      "end": 8498
+    },
+    {
+      "name": "com.intellij.openapi.editor.colors.ex.DefaultColorSchemesManager",
+      "duration": 18,
+      "start": 8453,
+      "end": 8471
+    },
+    {
+      "name": "com.intellij.database.dataSource.DataSourceStorage$App",
+      "duration": 17,
+      "start": 9582,
+      "end": 9600
+    },
+    {
+      "name": "com.android.tools.idea.gradle.project.sync.GradleSyncInvoker",
+      "duration": 23,
+      "start": 9857,
+      "end": 9880
+    },
+    {
+      "name": "com.android.tools.idea.gradle.project.sync.precheck.PreSyncChecks",
+      "duration": 12,
+      "start": 9868,
+      "end": 9880
+    },
+    {
+      "name": "com.intellij.ide.TypePresentationServiceImpl",
+      "duration": 31,
+      "start": 12253,
+      "end": 12284
+    },
+    {
+      "name": "com.intellij.plugins.watcher.model.ApplicationTasksOptions",
+      "duration": 11,
+      "start": 13334,
+      "end": 13346
+    }
+  ],
+  "preloadActivities": [
+    {
+      "name": "com.intellij.ide.ui.OptionsTopHitProvider$Activity",
+      "duration": 1954,
+      "start": 6448,
+      "end": 8402
+    }
+  ],
+  "projectComponents": [
+    {
+      "name": "com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl",
+      "duration": 26,
+      "start": 8213,
+      "end": 8239
+    },
+    {
+      "name": "com.intellij.openapi.wm.impl.ToolWindowManagerImpl",
+      "duration": 23,
+      "start": 8239,
+      "end": 8263
+    },
+    {
+      "name": "com.intellij.openapi.roots.impl.ProjectRootManagerComponent",
+      "duration": 17,
+      "start": 8264,
+      "end": 8282
+    },
+    {
+      "name": "com.intellij.psi.impl.PsiManagerImpl",
+      "duration": 18,
+      "start": 8282,
+      "end": 8300
+    },
+    {
+      "name": "com.intellij.openapi.module.impl.ModuleManagerComponent",
+      "duration": 52,
+      "start": 8312,
+      "end": 8365
+    },
+    {
+      "name": "com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl",
+      "duration": 12,
+      "start": 8366,
+      "end": 8378
+    },
+    {
+      "name": "com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl",
+      "duration": 49,
+      "start": 8389,
+      "end": 8439
+    },
+    {
+      "name": "com.intellij.codeInsight.daemon.impl.DaemonListeners",
+      "duration": 246,
+      "start": 8439,
+      "end": 8685
+    },
+    {
+      "name": "com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl",
+      "duration": 27,
+      "start": 8500,
+      "end": 8527
+    },
+    {
+      "name": "com.intellij.openapi.vcs.changes.VcsDirtyScopeManagerImpl",
+      "duration": 140,
+      "start": 8527,
+      "end": 8668
+    },
+    {
+      "name": "com.intellij.openapi.vcs.changes.ChangeListManagerImpl",
+      "duration": 139,
+      "start": 8527,
+      "end": 8666
+    },
+    {
+      "name": "com.intellij.openapi.vcs.changes.ChangesViewManager",
+      "duration": 84,
+      "start": 8532,
+      "end": 8617
+    },
+    {
+      "name": "com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory",
+      "duration": 82,
+      "start": 8685,
+      "end": 8768
+    },
+    {
+      "name": "com.intellij.codeInsight.navigation.CtrlMouseHandler",
+      "duration": 15,
+      "start": 8774,
+      "end": 8789
+    },
+    {
+      "name": "com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl",
+      "duration": 15,
+      "start": 8789,
+      "end": 8804
+    },
+    {
+      "name": "com.intellij.packaging.impl.artifacts.ArtifactManagerImpl",
+      "duration": 12,
+      "start": 8823,
+      "end": 8836
+    },
+    {
+      "name": "com.intellij.compiler.CompilerConfigurationImpl",
+      "duration": 12,
+      "start": 8836,
+      "end": 8848
+    },
+    {
+      "name": "com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager",
+      "duration": 31,
+      "start": 8867,
+      "end": 8899
+    },
+    {
+      "name": "com.intellij.xdebugger.impl.XDebuggerManagerImpl",
+      "duration": 107,
+      "start": 8913,
+      "end": 9021
+    },
+    {
+      "name": "com.intellij.execution.scratch.JavaScratchCompilationSupport",
+      "duration": 50,
+      "start": 9047,
+      "end": 9098
+    },
+    {
+      "name": "com.intellij.stats.personalization.impl.UserFactorsManagerImpl",
+      "duration": 19,
+      "start": 9118,
+      "end": 9138
+    },
+    {
+      "name": "com.intellij.tasks.impl.TaskManagerImpl",
+      "duration": 56,
+      "start": 9138,
+      "end": 9194
+    },
+    {
+      "name": "com.intellij.uiDesigner.propertyInspector.DesignerToolWindowManager",
+      "duration": 242,
+      "start": 9194,
+      "end": 9436
+    },
+    {
+      "name": "com.intellij.ide.palette.impl.PaletteToolWindowManager",
+      "duration": 16,
+      "start": 9436,
+      "end": 9453
+    },
+    {
+      "name": "org.jetbrains.idea.maven.navigator.MavenProjectsNavigator",
+      "duration": 13,
+      "start": 9463,
+      "end": 9476
+    },
+    {
+      "name": "com.jetbrains.cidr.lang.symbols.symtable.FileSymbolTablesCache",
+      "duration": 14,
+      "start": 9485,
+      "end": 9500
+    },
+    {
+      "name": "com.jetbrains.cidr.lang.hmap.OCHeaderMapManager",
+      "duration": 54,
+      "start": 9501,
+      "end": 9555
+    },
+    {
+      "name": "com.intellij.jpa.JpaProjectComponent",
+      "duration": 44,
+      "start": 9567,
+      "end": 9611
+    },
+    {
+      "name": "com.intellij.psi.impl.source.jsp.JspContextManagerImpl",
+      "duration": 10,
+      "start": 9619,
+      "end": 9630
+    },
+    {
+      "name": "org.jetbrains.plugins.terminal.TerminalView",
+      "duration": 11,
+      "start": 9630,
+      "end": 9641
+    },
+    {
+      "name": "org.jetbrains.kotlin.idea.configuration.ui.KotlinConfigurationCheckerComponent",
+      "duration": 170,
+      "start": 9667,
+      "end": 9837
+    },
+    {
+      "name": "com.android.tools.idea.gradle.project.AndroidGradleProjectComponent",
+      "duration": 42,
+      "start": 9848,
+      "end": 9890
+    },
+    {
+      "name": "com.android.tools.idea.res.PsiProjectListener",
+      "duration": 20,
+      "start": 9890,
+      "end": 9911
+    },
+    {
+      "name": "com.intellij.openapi.roots.impl.ModuleRootManagerComponent",
+      "duration": 112,
+      "start": 9984,
+      "end": 10096
+    }
+  ],
+  "projectOptionsTopHitProviders": [
+    {
+      "name": "com.intellij.application.options.editor.EditorOptionsTopHitProvider",
+      "duration": 82,
+      "start": 12542,
+      "end": 12624
+    },
+    {
+      "name": "com.intellij.application.options.editor.EditorSmartKeysOptionsTopHitProvider",
+      "duration": 89,
+      "start": 12626,
+      "end": 12716
+    },
+    {
+      "name": "com.intellij.application.options.editor.EditorTabsOptionsTopHitProvider",
+      "duration": 28,
+      "start": 12720,
+      "end": 12748
+    },
+    {
+      "name": "com.intellij.application.options.editor.CodeFoldingOptionsTopHitProvider",
+      "duration": 83,
+      "start": 12749,
+      "end": 12833
+    },
+    {
+      "name": "com.intellij.application.options.editor.AutoImportOptionsTopHitProvider",
+      "duration": 94,
+      "start": 12835,
+      "end": 12930
+    },
+    {
+      "name": "org.intellij.images.options.impl.ImagesOptionsTopHitProvider",
+      "duration": 123,
+      "start": 12930,
+      "end": 13054
+    },
+    {
+      "name": "com.intellij.uiDesigner.GuiDesignerOptionsTopHitProvider",
+      "duration": 26,
+      "start": 13057,
+      "end": 13083
+    }
+  ],
+  "projectServices": [
+    {
+      "name": "com.intellij.compiler.CompilerManagerImpl",
+      "duration": 49,
+      "start": 9048,
+      "end": 9098
+    },
+    {
+      "name": "com.intellij.database.psi.DbPsiFacadeImpl",
+      "duration": 40,
+      "start": 9570,
+      "end": 9610
+    },
+    {
+      "name": "com.intellij.database.dataSource.DataSourceStorage$Prj",
+      "duration": 18,
+      "start": 9582,
+      "end": 9600
+    },
+    {
+      "name": "com.android.tools.idea.res.ResourceFolderRegistry",
+      "duration": 19,
+      "start": 9891,
+      "end": 9911
+    },
+    {
+      "name": "com.intellij.execution.impl.RunManagerImpl",
+      "duration": 542,
+      "start": 10134,
+      "end": 10676
+    },
+    {
+      "name": "com.intellij.psi.codeStyle.ProjectCodeStyleSettingsManager",
+      "duration": 11,
+      "start": 10785,
+      "end": 10797
+    },
+    {
+      "name": "com.jetbrains.jsonSchema.impl.JsonSchemaServiceImpl",
+      "duration": 18,
+      "start": 10800,
+      "end": 10819
+    },
+    {
+      "name": "com.intellij.lang.javascript.library.JSLibraryMappings",
+      "duration": 78,
+      "start": 11325,
+      "end": 11404
+    },
+    {
+      "name": "com.intellij.javascript.nodejs.library.NodeModulesDirectoryManager",
+      "duration": 11,
+      "start": 11365,
+      "end": 11377
+    },
+    {
+      "name": "com.jetbrains.plugins.webDeployment.config.PublishConfig",
+      "duration": 18,
+      "start": 11947,
+      "end": 11966
+    },
+    {
+      "name": "com.android.tools.idea.gradle.project.sync.GradleSyncState",
+      "duration": 12,
+      "start": 11995,
+      "end": 12007
+    },
+    {
+      "name": "com.jetbrains.php.composer.configData.ComposerJsonConfigService",
+      "duration": 21,
+      "start": 12021,
+      "end": 12043
+    },
+    {
+      "name": "com.jetbrains.scientific.PyPlotToolWindow",
+      "duration": 35,
+      "start": 12061,
+      "end": 12097
+    },
+    {
+      "name": "com.intellij.openapi.fileEditor.impl.EditorHistoryManager",
+      "duration": 152,
+      "start": 12375,
+      "end": 12527
+    },
+    {
+      "name": "com.intellij.lang.typescript.library.TypeScriptLibraryProviderImpl",
+      "duration": 13,
+      "start": 12771,
+      "end": 12785
+    },
+    {
+      "name": "org.jetbrains.kotlin.idea.core.script.ScriptDependenciesManager",
+      "duration": 10,
+      "start": 12786,
+      "end": 12797
+    },
+    {
+      "name": "com.intellij.psi.impl.file.PsiJavaDirectoryFactory",
+      "duration": 10,
+      "start": 12941,
+      "end": 12951
+    },
+    {
+      "name": "com.intellij.openapi.externalSystem.service.project.manage.ExternalProjectsManagerImpl",
+      "duration": 33,
+      "start": 13237,
+      "end": 13271
+    },
+    {
+      "name": "com.jetbrains.cidr.lang.symbols.symtable.OCSymbolTablesBuildingActivity",
+      "duration": 11,
+      "start": 13413,
+      "end": 13425
+    },
+    {
+      "name": "com.intellij.ide.projectView.impl.ProjectViewImpl",
+      "duration": 33,
+      "start": 13462,
+      "end": 13496
+    },
+    {
+      "name": "com.intellij.tapestry.intellij.TapestryModuleSupportLoader",
+      "duration": 18,
+      "start": 13570,
+      "end": 13588
+    },
+    {
+      "name": "com.intellij.openapi.roots.ui.configuration.ProjectStructureConfigurable",
+      "duration": 120,
+      "start": 13664,
+      "end": 13784
+    },
+    {
+      "name": "com.intellij.openapi.roots.ui.configuration.projectRoot.ProjectLibrariesConfigurable",
+      "duration": 15,
+      "start": 13697,
+      "end": 13713
+    },
+    {
+      "name": "com.intellij.openapi.roots.ui.configuration.projectRoot.ModuleStructureConfigurable",
+      "duration": 25,
+      "start": 13715,
+      "end": 13741
+    },
+    {
+      "name": "com.intellij.execution.dashboard.RunDashboardManagerImpl",
+      "duration": 18,
+      "start": 13746,
+      "end": 13765
+    }
+  ],
+  "totalDurationComputed": 10629,
+  "totalDurationActual": 13787
+}
